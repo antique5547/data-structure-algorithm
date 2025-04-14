@@ -14,11 +14,17 @@
 ---
 
 ### Introduction
-This project contains a collection of fundamental **data structures** and **algorithms** implemented in [Programming Language]. It focuses on concepts like **sorting**, **searching**, and efficient problem-solving.
+This project contains a collection of fundamental **data structures** and **algorithms** implemented in Java Lang. It focuses on concepts like **sorting**, **searching**, and efficient problem-solving.
 
 ### Features
-- **Sorting Algorithms:** Includes `QuickSort`.
-- **Search Algorithms:** Includes `BinarySearch`.
+- **Sorting Algorithms:**
+  - `QuickSort`
+  - `BubbleSort`
+  - `MergeSort`
+  - `RadixSort`
+  - `SelectionSort`
+- **Search Algorithms:** 
+  - `BinarySearch`
 
 ### Usage
 To use this code:
@@ -58,4 +64,4 @@ To use this code:
 ---
 
 ### License
-[MIT License](LICENSE)
+[Apache License](LICENSE)

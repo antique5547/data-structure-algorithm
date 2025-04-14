@@ -1,4 +1,21 @@
-package ds.alog.sort;
+package ds.algo.sort;
+
+
+/**
+ * Sorts the array in ascending order using the QuickSort algorithm.
+ * <p>
+ * Time Complexity:
+ * - Best and Average case: O(n log n) (occurs when the pivot divides the array roughly in half)
+ * - Worst case: O(n^2) (occurs when the smallest or largest element is always chosen as pivot)
+ * <p>
+ * Space Complexity:
+ * - O(log n) for recursive call stack (in-place algorithm, no additional data structures).
+ * <p>
+ * Real-World Use Cases:
+ * - Efficient sorting of large datasets where average-case performance is sufficient,
+ * e.g., in database query results, sorting files in-memory.
+ * - Often used in systems and libraries that require in-place sorting.
+ */
 
 public class QuickSort {
     public static void main(String[] args) {
