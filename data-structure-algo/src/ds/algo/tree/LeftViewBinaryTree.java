@@ -20,10 +20,9 @@ public class LeftViewBinaryTree {
     /**
      * Prints the nodes visible from the left view of a binary tree using iteration.
      * <p>
-     * Time Complexity: O(n), where n is the number of nodes in the tree
-     * (each node is processed once).
-     * Space Complexity: O(w), where w is the maximum width of the tree
-     * (largest level size in the queue).
+     * Time Complexity: O(n), where n is the number of nodes in the tree.
+     * Each node is processed exactly once.
+     * Space Complexity: O(w), where w is the maximum width of the tree (maximum number of nodes at any level).
      */
     public static void printLeftView(TreeNode root) {
         if (root == null) {
@@ -56,10 +55,10 @@ public class LeftViewBinaryTree {
     /**
      * Helper method to print the nodes visible from the left view of a binary tree using recursion.
      * <p>
-     * Time Complexity: O(n), where n is the number of nodes in the tree
-     * (each node is visited once).
-     * Space Complexity: O(h), where h is the height of the tree
-     * (due to recursive function calls on the stack).
+     * Time Complexity: O(n), where n is the number of nodes in the tree.
+     * Each node is visited exactly once.
+     * Space Complexity: O(h), where h is the height of the tree.
+     * This is due to the stack space used by recursive calls.
      */
     private static void printLeftViewRecursive(TreeNode node, int level, int[] maxLevel) {
         if (node == null) {
